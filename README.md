@@ -13,6 +13,9 @@ docker login -u pranavgawas
 ## dockerhub puch
 docker push <username>/<imagename>:<tagname>
 
+## docker images witch is running
+docker ps
+
 ## docker stop container
 docker stop container-id
 
