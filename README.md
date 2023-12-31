@@ -10,8 +10,8 @@ docker run -d -p 3000:3000 --name my-container my-image:1.0
 ## docker login
 docker login -u pranavgawas
 
-## dockerhub puch
-docker push <username>/<imagename>:<tagname>
+## dockerhub push
+docker push {username}/{imagename}:{tagname}
 
 ## docker images witch is running
 docker ps
